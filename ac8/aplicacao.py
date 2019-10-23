@@ -60,3 +60,17 @@ app = Flask(__name__)
 def index():
     return render_template('matrizCurricular_Telecominucacoes.html')
 app.run()
+
+from flask import Flask, render_template 
+app = Flask(__name__)
+@app.route('/listaCurso')
+def index():
+    return render_template('listaCurso.html')
+app.run()
+
+from flask import Flask, render_template 
+app = Flask(__name__)
+@app.route('/noticias')
+def index():
+    return render_template('noticias.html')
+app.run()
