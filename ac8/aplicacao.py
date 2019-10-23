@@ -33,3 +33,30 @@ def index():
     return render_template('detalhesTelecomunicacoes.html')
 app.run()
 
+from flask import Flask, render_template 
+app = Flask(__name__)
+@app.route('/')
+def index():
+    return render_template('matrizCurricular_Eletronica.html')
+app.run()
+
+from flask import Flask, render_template 
+app = Flask(__name__)
+@app.route('/')
+def index():
+    return render_template('matrizCurricular_InformaticaIndustrial.html')
+app.run()
+
+from flask import Flask, render_template 
+app = Flask(__name__)
+@app.route('/')
+def index():
+    return render_template('matrizCurricular_Mecatronica.html')
+app.run()
+
+from flask import Flask, render_template 
+app = Flask(__name__)
+@app.route('/')
+def index():
+    return render_template('matrizCurricular_Telecominucacoes.html')
+app.run()
