@@ -7,19 +7,19 @@ def index():
 
 
 
-@app.route('/detalhesEletronica')
+@app.route('/detalhesEletronica.html')
 def eletronica():
     return render_template('detalhesEletronica.html')
 
 
 
-@app.route('/detalhesInformaticaIndustrial')
+@app.route('/detalhesInformaticaIndustrial.html')
 def informaticaIndustrial():
     return render_template('detalhesInformáticaIndustrial.html')
 
 
 
-@app.route('/detalhesMecatronica')
+@app.route('/detalhesMecatronica.html')
 def mecatronica():
     return render_template('detalhesMecatronica.html')
 
