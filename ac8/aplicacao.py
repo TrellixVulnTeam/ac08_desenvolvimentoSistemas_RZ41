@@ -25,13 +25,13 @@ def mecatronica():
 
 
 
-@app.route('/detalhesTelecomunicacoes')
+@app.route('/detalhesTelecomunicacoes.html')
 def telecomunicacoes():
     return render_template('detalhesTelecomunicacoes.html')
 
 
 
-@app.route('/matrizCurricular_Eletronica')
+@app.route('/matrizCurricular_Eletronica.html')
 def matrizEletronica():
     return render_template('matrizCurricular_Eletronica.html')
 
