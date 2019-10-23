@@ -13,7 +13,7 @@ def eletronica():
 
 
 
-@app.route('/detalhesInformaticaIndustrial.html')
+@app.route('/detalhesInformáticaIndustrial.html')
 def informaticaIndustrial():
     return render_template('detalhesInformáticaIndustrial.html')
 
