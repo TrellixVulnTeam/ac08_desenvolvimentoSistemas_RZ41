@@ -37,19 +37,19 @@ def matrizEletronica():
 
 
 
-@app.route('/matrizCurricular_InformaticaIndustrial')
+@app.route('/matrizCurricular_InformaticaIndustrial.html')
 def matrizInformaticaIndustrial():
     return render_template('matrizCurricular_InformaticaIndustrial.html')
 
 
 
-@app.route('/matrizCurricular_Mecatronica')
+@app.route('/matrizCurricular_Mecatronica.html')
 def matrizMecatronica():
     return render_template('matrizCurricular_Mecatronica.html')
 
 
 
-@app.route('/matrizCurricular_Telecomunicacoes')
+@app.route('/matrizCurricular_Telecomunicacoes.html')
 def matrizTelecomunicacoes():
     return render_template('matrizCurricular_Telecominucacoes.html')
 
