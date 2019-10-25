@@ -1,3 +1,8 @@
 {
+<<<<<<< HEAD
     "python.pythonPath": "ac8\\Scripts\\python.exe"
+=======
+    "python.pythonPath": "C:\\Program Files\\Python36\\python.exe",
+    "python.linting.pylintEnabled": true
+>>>>>>> 21c2a98cbfe44c08ee2584a34afdbbd9e7c74b25
 }
